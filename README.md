@@ -31,12 +31,5 @@ Be sure to activate the option from the `book.json` file:
 ```json
 {
     "plugins" : ["richquotes-emoji"]
-    ,"pluginsConfig":
-    {
-        "richquotes" :
-        {
-            "todos" : true /*false by default*/
-        }
-    }
 }
 ```

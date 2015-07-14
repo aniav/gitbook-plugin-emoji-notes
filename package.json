@@ -1,0 +1,18 @@
+{
+  "name": "gitbook-plugin-richquotes-emoji",
+  "description": "Transform annoted quotes to notes with emoji in GitBook",
+  "main": "index.js",
+  "version": "0.0.1",
+  "engines": {
+    "gitbook": ">=0.3.4"
+  },
+  "homepage": "https://github.com/aniav/gitbook-plugin-richquotes-emoji",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aniav/gitbook-plugin-richquotes-emoji.git"
+  },
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/aniav/gitbook-plugin-richquotes-emoji/issues"
+  }
+}

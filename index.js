@@ -28,7 +28,6 @@ module.exports = {
     blocks: {
         emojinote: {
             process: function(block) {
-                print(typeof(block));
                 return emojinote(block, 'note');
             }
         },

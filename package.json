@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-richquotes-emoji",
-  "description": "Transform annoted quotes to notes with emoji in GitBook",
+  "description": "Transform annonated quotes to notes with emoji in GitBook",
   "main": "index.js",
   "version": "0.0.1",
   "engines": {

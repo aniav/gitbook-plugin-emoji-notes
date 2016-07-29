@@ -1,0 +1,44 @@
+.emoji-block {
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.emoji-block.emoji-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+
+.emoji-block.emoji-note {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f;
+}
+
+.emoji-block.emoji-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+
+.emoji-block.emoji-warning {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #8a6d3b;
+}
+
+.emoji-block > .emoji {
+    margin-left: 15px;
+    float: left;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.emoji-block > .content {
+    margin-left: 65px;
+    padding: 15px;
+    min-height: 80px;
+}

@@ -1,23 +1,24 @@
 Gitbook plugin: Transform annotated quotes to notes
 ==============
 
-For gitbook 2.x
+For gitbook 3.x
 
-Annotated notes are an extension of markdown blockquotes.
-Supported annotations:
+Emoji notes are an additional tag for Gitbook.
 
-- `> **Info** Info`
-- `> **Note** Note`
-- `> **Tag** Tag`
-- `> **Comment** Comment`
-- `> **Hint** Hint`
-- `> **Success** Success`
-- `> **Warning** Warning`
-- `> **Caution** Caution`
-- `> **Danger** Danger`
-- `> **Quote** Quote`
+Supported emoji blocks:
 
-Lowercase are allowed for annotations too.
+- {% emojinote %}
+- {% emojiwarning %}
+- {% emojidanger %}
+- {% emojisuccess %}
+
+The example usage:
+
+```
+{% emojinote %}
+Example text here.
+{% endemojinote %}
+```
 
 
 You can install this plugin via NPM:
